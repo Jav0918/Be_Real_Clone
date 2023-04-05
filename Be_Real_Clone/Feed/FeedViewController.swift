@@ -40,9 +40,14 @@ class FeedViewController: UIViewController {
         // TODO: Pt 1 - Query Posts
 // https://github.com/parse-community/Parse-Swift/blob/3d4bb13acd7496a49b259e541928ad493219d363/ParseSwift.playground/Pages/2%20-%20Finding%20Objects.xcplaygroundpage/Contents.swift#L66
         
+        let yesterdayDate = Calendar.current.date(byAdding: .day, value: (-1), to: Date())!
+
+        
         let query = Post.query()
             .include("user")
             .order([.descending("createdAt")])
+            .where("createdAt" >= yesterdayDate)
+            .limit(10)
         
         
         //Fetch posts

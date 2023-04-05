@@ -31,6 +31,7 @@ struct User: ParseUser {
     
     var firstName: String?
     var lastName: String?
+    var lastPostedDate: Date?
     
     
 }
