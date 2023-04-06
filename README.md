@@ -1,28 +1,25 @@
-# Project 5 - *Be Real Clone App*
+# Project 6 - *Be Real Clone Part 2*
 
 Submitted by: **Jonathan Velez**
 
-**Name of your app** is an app that demonstrates the use of ParseSwift SDK and Back4App server for our backend user authentication.
+**Be Real Clone Part 2** is an app that introduces blurred imageview effects and persistance to our application. 
+Upon logging in users will not be able to see other users posts until they make a post themselves.
 
-Time spent: **10** hours spent in total
+Time spent: **X** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] User can register a new account
-- [X] User can log in with newly created account
-- [X] App has a feed of posts when user logs in
-- [X] User can upload a new post which takes in a picture from photo library and a caption	
+- [X] User can launch camera to take photo instead of photo library
+- [X] User session persists when application is closed and relaunched
+- [X] Users are able to log out and return to sign in page
+- [X] Users are NOT able to see other photos until they upload their own	
  
 The following **optional** features are implemented:
 
-- [ ] Users can pull to refresh their feed and see a loading indicator
-- [ ] Users can infinite-scroll in their feed to see past the 10 most recent photos
-- [ ] Users can see location and time of photo upload in the feed	
-- [X] User is able to logout
-- [X] User stays logged in when app is closed and open again	
-
+- [ ] User receive notifcation when it is time to post
+- [ ] Users can make comments and view comments in posts	
 
 The following **additional** features are implemented:
 
@@ -32,13 +29,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://imgur.com/a/L042nPj.gif
-
-Gif made on Imgur.com
+https://imgur.com/a/s1sh8Fw
 
 ## Notes
+Gif had to be broken up into two separate components in order to fit the requirements for upload on imgur.
 
-One of the challenges I faced was getting my outlets properly connected.
+Describe any challenges encountered while building the app.
+uploading to imgur
 
 ## License
 
