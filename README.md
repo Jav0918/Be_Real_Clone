@@ -5,7 +5,7 @@ Submitted by: **Jonathan Velez**
 **Be Real Clone Part 2** is an app that introduces blurred imageview effects and persistance to our application. 
 Upon logging in users will not be able to see other users posts until they make a post themselves.
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
